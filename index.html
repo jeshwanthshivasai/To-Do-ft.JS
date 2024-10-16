@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocJuPDvHiggH3JWkwXAOCYY40yXHZJN_LUXbXlRN1aoPH0QOxAdIKw=s96-c" alt="Avatar" class="avatar">
+                <p class="username">Jeshwanth Shiva Sai</p>
+                <p class="email">havingthesensesofaspider@gmail.com</p>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><span class="icon">🌞</span> My Day</li>
+                <li class="menu-item"><span class="icon">⭐</span> Important</li>
+                <li class="menu-item"><span class="icon">📅</span> Planned</li>
+                <li class="menu-item"><span class="icon">🧾</span> All</li>
+                <li class="menu-item"><span class="icon">✔️</span> Completed</li>
+                <li class="menu-item"><span class="icon">📋</span> Tasks</li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h2 class="section-title">My Day - <span id="date"></span></h2>
+            </header>
+            <div class="task-list">
+                <ul id="tasks"></ul>
+            </div>
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Add a new task..." />
+                <button id="addTaskBtn">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
